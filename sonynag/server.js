@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 
 const studentsRoutes = require("./routes/studentsRoutes");
 const facultyRoutes = require("./routes/facultyRoutes");
-//
+////
 const app = express();
 app.use(bodyParser.json());
 
